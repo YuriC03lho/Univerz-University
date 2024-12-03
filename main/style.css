@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+    color: white;
+
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+   text-decoration: none;
+}
+header, ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+h2 /* Titulo da Faculdade*/ 
+{ 
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 130px;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 105;
+
+    font-family: "Belanosima", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h3 /* Titulo Pequeno*/
+{
+    font-family: "Montserrat", sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+#btn-centrazile{
+padding-top: 20px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+li:hover/* Adicionar Linha a baixo usando Hover*/
+{ 
+background-color: blue;
+border-radius: 30px;
+}
+.li-space /*Centralizar o Header*/
+{
+    padding: 0.5rem
+}
+/* Adicionar Estilo do Botão diferentes*/
+
+.btn-getstarted{
+    border-radius: 60px;
+    border-color: rgba(255, 255, 255, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: blue;
+    font-size: 25px;
+    width: 10%;
+    height: max-content;
+    margin: 40px;
+    height: 55px;
+
+    font-family: "Belanosima", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.btn-learnmore
+{
+    border-radius: 60px;
+    border-color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(0, 0, 255, 0);
+    font-size: 25px;
+    margin: 40px;
+    width: 10%;
+    height: 55px;
+
+    font-family: "Belanosima", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
