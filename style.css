@@ -128,10 +128,11 @@ border-radius: 30px;
 }
 @media(min-width: 2560px)
 {
-    body{
+  body{
         background-image: url(/Projetos/UniverzUniversity/img/school.png);
         background-size: 3890px;
         background-position: center;
+        
     }
     ul{
         font-size: 15px;
