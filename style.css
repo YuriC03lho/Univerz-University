@@ -93,6 +93,7 @@ border-radius: 30px;
     font-weight: 100;
     font-style: normal;
 }
+/* Refazer Depois!
 @media(max-width: 767px)
 { 
     
@@ -107,7 +108,7 @@ border-radius: 30px;
         width: 200px;
     }
     body{
-        background: url(/Projetos/UniverzUniversity/img/school.png) no-repeat;
+        background: url(/UniverzUniversity/img/school.jpg) no-repeat;
         background-size: center;
     }
 }
@@ -129,7 +130,7 @@ border-radius: 30px;
 @media(min-width: 2560px)
 {
   body{
-        background-image: url(/Projetos/UniverzUniversity/img/school.png);
+        background-image: url(/UniverzUniversity/img/school.jpg);
         background-size: 3890px;
         background-position: center;
         
@@ -162,14 +163,14 @@ border-radius: 30px;
         font-size: 30px;
     }
     body{
-        background: url(/Projetos/UniverzUniversity/img/school.png);
+        background: url(/UniverzUniversity/img/school.jpg);
         background-size: 4000px;
         background-position: center;
     }
 }
 @media(min-width: 240px){
     body{
-        background-image: url(/Projetos/UniverzUniversity/img/school.png);
+        background-image: url(/UniverzUniversity/img/school.jpg);
         background-position: center;
         background-size: 4000px;
     }
