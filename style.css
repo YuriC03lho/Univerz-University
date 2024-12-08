@@ -93,3 +93,101 @@ border-radius: 30px;
     font-weight: 100;
     font-style: normal;
 }
+@media(max-width: 767px)
+{ 
+    
+    h2{
+        padding-top: 200px;
+        font-size: 70px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    .btn-getstarted,.btn-learnmore{
+        width: 200px;
+    }
+    body{
+        background: url(/Projetos/UniverzUniversity/img/school.png) no-repeat;
+        background-size: center;
+    }
+}
+@media(min-width:768px) and (max-width:1024px)
+{
+    h2{
+    font-size: 85px;
+    }
+    h3{
+        font-size: 15px;
+    }
+
+    .btn-getstarted,.btn-learnmore{
+        width: 200px;
+    }
+
+   
+}
+@media(min-width: 2560px)
+{
+    body{
+        background-image: url(/Projetos/UniverzUniversity/img/school.png);
+        background-size: 3890px;
+        background-position: center;
+    }
+    ul{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 90px;
+    }
+    h3{
+        padding-top: 20px;
+        font-size: 20px;
+    }
+}
+@media(min-width: 3440px)
+{
+    h2{
+        font-size: 180px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    .btn-getstarted,.btn-learnmore{
+        width:400px;
+        height: 80px;
+        font-size: 45px;
+    }
+    ul{
+        font-size: 30px;
+    }
+    body{
+        background: url(/Projetos/UniverzUniversity/img/school.png);
+        background-size: 4000px;
+        background-position: center;
+    }
+}
+@media(min-width: 240px){
+    body{
+        background-image: url(/Projetos/UniverzUniversity/img/school.png);
+        background-position: center;
+        background-size: 4000px;
+    }
+    ul, h1{
+        font-size: 5px;
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+    }
+    h2{
+        font-size:95px;
+        
+    }
+    h3{
+        font-size: 7px;
+    }
+    .btn-getstarted,.btn-learnmore{
+        width:100px;
+        height: 20px;
+        font-size: 5px;
+    }
+}
